@@ -4,36 +4,45 @@
     box-sizing: border-box;
 }
 
-.app{
+.both {
+    clear: both;
+}
 
+.app{
+    clear: both;
 }
 .header{
     width: 100%;
     height: 100px;
     background-color: aqua;
+    clear: both;
 }
 .container{
-    width: 100%;
     display: flex;
-    justify-content: center;
+   
+   width: 100%;
 }
 .sidebar__left{
-    width: calc(100%/4);
+    width: 25%;
     background-color: bisque;
     height: 500px;
+    display: inline-block;
 }
 .content{
-    width: calc(100%/2);
+    width: 50%;
     background-color: cadetblue;
     height: 500px;
+    
 }
 .siderbar__right{
-    width: calc(100%/4);
+    width: 25%;
     background-color: chocolate;
     height: 500px;
+    
 }
 .footer{
     width: 100%;
     height: 100px;
     background-color: chartreuse;
+    
 }

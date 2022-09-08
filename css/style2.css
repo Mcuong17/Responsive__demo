@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content__img {
+    width: 200px;
+    height: 200px;
+}
+
+.content__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content__desc {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.content__footer {
+    margin-top: 100px;
+}
